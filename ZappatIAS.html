@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZappatIAS - Tienda de Zapatillas</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-blue-600 p-4 flex justify-between items-center shadow-md">
+        <img src="image.jpg" alt="ZappatIAS Logo" class="h-10">
+        <ul class="flex space-x-6 text-white font-semibold">
+            <li><a href="#" class="hover:underline">Inicio</a></li>
+            <li><a href="#" class="hover:underline">Catálogo</a></li>
+            <li><a href="#" class="hover:underline">Ofertas</a></li>
+            <li><a href="#" class="hover:underline">Contacto</a></li>
+        </ul>
+    </nav>
+    <header class="text-center py-16">
+        <h1 class="text-5xl font-bold text-gray-800">ZappatIAS</h1>
+        <p class="text-xl text-gray-600 mt-2 italic">"Los pasos que conectan"</p>
+    </header>
+    <main class="max-w-6xl mx-auto p-6">
+        <h2 class="text-3xl font-semibold text-gray-800 text-center mb-6">Catálogo de Zapatillas</h2>
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6">
+            <div class="bg-white p-4 shadow-md rounded-lg text-center">
+                <img src="https://media.atmosferasport.es/403232-large_default/zapatillas-de-running-adidas-ultrarun-5-running-hombre-azul-oscuro.jpg" alt="Zapatilla 1" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Zapatilla Running</h3>
+                <p class="text-gray-600">Comodidad y estilo en cada paso.</p>
+                <p class="text-lg font-semibold text-blue-600 mt-2">$79.99</p>
+                <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Comprar</button>
+            </div>
+            <div class="bg-white p-4 shadow-md rounded-lg text-center">
+                <img src="https://www.base.net/media/catalog/product/0/1/01_ie8814.jpg" alt="Zapatilla 2" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Zapatilla Casual</h3>
+                <p class="text-gray-600">Perfecta para el día a día.</p>
+                <p class="text-lg font-semibold text-blue-600 mt-2">$69.99</p>
+                <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Comprar</button>
+            </div>
+            <div class="bg-white p-4 shadow-md rounded-lg text-center">
+                <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxIREhEQEhMSFRUWGBUWFxUYFhUWFhgVFRUZFxUYFxgYHSkgGBomHRUVIzEhJSkrLi4uGB8zODMtNygtMCsBCgoKDg0NFQ8PFSsdFR0tKy0tKy0tLS0rLS0rKy03LSstLSstLS03LS03Ky03KzctLS03KysrLSsrNysrKysrK//AABEIALcBFAMBIgACEQEDEQH/xAAbAAEAAgMBAQAAAAAAAAAAAAAABAUBAwYCB//EAEQQAAIBAgQEAgcEBwQLAQAAAAECAAMRBBIhMQVBUWEGcRMiMoGRobEzwdHwFEJSU2KCkiNDouEWJDRjcoOTo7LC0hX/xAAWAQEBAQAAAAAAAAAAAAAAAAAAAQL/xAAXEQEBAQEAAAAAAAAAAAAAAAAAEQES/9oADAMBAAIRAxEAPwD7jERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBERAREQEREBESm4rjjTqqpJClQR3bMb/ACtAuYnMPx5lqCmpDk7DnLR8WzAX9XqAb6+cCc9cDvMVq4Vc3kPeZBFSeOIVCaLgAnY6bixvcdTptA9VOK5dTabaHGKbELqCeVr/AEnJ8RwTVFFWnUNuYPfmbTZwVzT0Nix59ukix2DVidtIWva99pT4viSUUNWq2VRbWxJuTYABQSSegnjh/FKeIX0tIk5SVIYMrBhuCG1G47SotTxWnyufIfjaSMLiRUFxfyMomwDM2emVAI1Bvo3a3KWXD6TJuQb2va+/aBYxMAzMBERAREQEREBERAREQEREBERAREQEREBERAREQEo/FVG6I/Rre5h+KiXkq/En2DDqUt/UD90DksAop1WrWzMy5dToNQSR30+snV+KsASSiAc9gPMsbTSiyVieD0Xpf6wquDZsrC4FtV0O7c+0gkYDFlvVY3bcHTUe6T6VaxnFeHMO9ClYkC1So1MAlslMuSiXO9te2tuU6nDs1exBsnO29+aiWjRhaSU6ldQD6M+sQScoLkBlW+wudLeXISvek1Orl1IOqnqp69+XunTeiTKQQpXTQi402EVnXKVZbXB00+VpFqHw/CBrVKmuU3UcgQPaHfUi814eiKfpXZsxqO1RidBcgKAByACqJMU2pKOoHz1nI+KcZXo18JUFOrUoBm9KKaM5DEWQsq6lRqdiL78pR12EUtZrELuO58ukh16pSsy5T63rKQNLAANfob/USTSrlkVrMtwGs2jC+tmF9D2knDvm9bly++EScBVDA669OklSodvRHMEBBO4vcE9d/jJuDxYfTYjkYEqIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgJz3inEa06Y7ufov8A7ToCZw3EMZ6Wq78jov8Awjb46n3wNuDXOwWZ4ziT/aHoSB2AOk2cH9sHoR+flIPExmAHNjAqMfxhcOcIKnq06rlGclQF9QlcxJFgTz7TpcDxRSEy29GwFm1AsdiAeXcyFWwiMmSoiuN8rKGGnYi0zwmrTrFyCGFNih6BktmHe1wNOenKFdLhQWAZhl5hfoT+E3VbWJyhiBoNL+QMhYbFZxe9raEc+357SQtQE2Gp+nnCInEcQMtNl2J+7/ObBqAZ7x+GVgAbjXQjke46GeaCkLY8oVz3HuOChiMPRcqlJvtHY29oPkVddrp6zbAEftXnQ4fGKyK6EFGAII2K20t2kLiXDaGIAWvSpVQpuA6K9j1GYaSr8Q8bXDehHsozhWbktO4BIA1J9YAAbC52UwOow7Zrnly137+U2GpbULm8rXHx3lZhuJU6iFqTK6A5bggr6uhAI0IG1xzE30SXKPmsgubde/lCLqk9xPcrVDZswaw6H86TeMct8p/ygS4nkGZgZiYiBmIiAiIgIiICIiAiIgIiICIiAiIgU/ifFZKOUbucv8u7fLT3zlElp4sr3rBeSKPixufkFlTTaBZ8MHre4/QyHe9VQekl8JBZjbcC4+IkWuuXE5ex/EfWBYVEvOU8PeFDgq9WqMQ7UmqNVFK1hnYMLsb+tYMfkeU6nPpNdeiXUgGxItf74UwCelYspsmqkjckHW3cEb+cufSpTUBbdrakk/UzifB2GxuFU0MQaRprnysCS5UnQb6D2ib3Os6HhpzMap2BITsLes3wFoRbUBl1Y3Y7/wDyOwmHr08xTNZtDYg7Hax6SDWxYPrX02AG5P1v2lnhwcoLCx6Hl20gVuJuDYyJjcDSroadamlRTY5WAIuNjrz7yWcTUuFrUFFyVDI2YEX9U9V05H5z1WpBSQNR8wehhVHxjFJg6NOwRKYZVI9lVpgZmyhd2yhrKNzLvC8UpVqeekysl7ZlN19UbAjcC9vOeKtJKimnURXQ7qwDA+YM0vhstJqdEIllYU1AARTY5dByvAscBULDO22uUdFHPzJmrEUTUqXWoFB3BFzcDW3aUPhmtjQi08TT9GKaZMxZHaswAAa6k2AAJJNixbYAa22BxSBq7uwGQWa59hAuck9PVF/IQixLNSHqh2Ft7/LKNT7hPfDeMrVHXUi411G4PeRcXXvl53Iyjrfb3SXkDLlBIvqSpKt53GsC0VgdpmVAugurO5HIkEnyJtY/KSMLxK+jKy+YPzgWETUMQn7Q+M9qwOxBgeoiICIiAiIgIiICIiAiIgIiIHCcca+IrHuB8FA+6Q1EpMRx00K1RcYDTVqjmniNTRdWYlVdv7twDazaG17y7oOrgMrBlOzKQQfIjSBZ8Ga1Ve9x8r/dHGltiafdT8tPumjCvlZT0IPzllxxR6Sg3dl92W8CKJtVpqY6zKtA2VVuD5TkvDuO4gKhoV6IWmtSoTWuPWpFnZEUc7saeu+VSDrOrZtJHOsD1wsF6hbkCAB1Y319wltUxm/ba+gt1Jnz/BYLiVPGVcrJ+jVXRy+cZlRcuZUUesGKoU6ak7zqqtdalQUibA+sepA3sPh8YFngsMTU9I7ZiNQB7Ivtbr5yZWQEl7AvawuTbmQDYba9DNKEBdDvqe3b3T3gqoe5FsuoB6kbnygalpO6gtTVHtchWzL5XIB99hI9WmV3BH0ljiaC1QVbMB/C7IR/MpBB8pD4izUKRenncKPsytSoW7AoC3vII8oGpdZV4nw5h6lb9JYOHNswDkI+UWGdR7QsACNiBY3m3hHFFroG9FXpNzRkJKnoeXwMsagtr7Q7Ak/07wqq41i6tFqNWnResoZg6oLsFKNbKOubL7pOwWIqugqVF9Gb3VP1lSwsH5ZtybdbcpX8X8S4XCLmr1Gpj+KlWHw9TeQ/9NMPUH9hRxuIv+5wta3xqBR84R0dTFH1Qu7C/kOf4TK3nOYPiuNewpcNqKRcZsRXo0VAJvqql367CS1wPEqnt4nDYcdKFE1WH/Mrm3/bmsHRUUJmipxvDI2T0gd/2KQNV/eEBt77Sto+E6LG+IqYnFHpXrMafuoplpj+mdDgsKlJQlJEpqP1UUIB7lAhDhuMq1CS9I000y52BqE88yrcKPfeWUjASQsyrMREBERAREQEREBERATBMzMGB8z4xiVo16tCuAqljlZwPROrG6gsfVVtQMrb8r8qp/CmEuWpCphmP62HqvS/wg5P8M+j8b4ImIuTo1st7AgjoynQjWcTiPBfodaaOgH7io9Nf+kDk5/smaRCw2Ax9N1FPFU66FlBWvSAcKSM1qlK1za9syy88Y+IaeGfD+kWtkuzNUSmzogC2HpMtyL36HYyv4XSbDsz1K9ZwBYJVWmCGNtbqinQX369pBxfGay1FZ6WYZzZqVQOcuwzKwU+5c0kF7guK0cQuehVp1V5lGDW7EDVT2MkrUnJ1eG8PxrllHo69r5qZbD4lb6Zitg3vZTPX6BxKh9jiaOJS/sYhClQDoKtP2j3YRFdWak9KJyB8YGhpjsLiMN/vAPTUN7D+0Tr0tLvh/iDC1/ssRRc9A65v6Tr8oFwolN4k8NNi2o1aWIahVpZgrBcylXKlgQCL+wOfnLim0254Fdj6n6JhHZ3Z8gerVqEAM7G7Oco0HYDYADlNvAvFOHr2p0Dn9QZiNqeilQ/QsS2n8BktrMCDYg7gi4IPbnNeBwFOktqVFEB1IRAoJ8lGsgtKWLvcfs/Q7TycUTtt1/CUVfidChUb01ejSzAj16iJzB5n+E/GaavjXhyEIMVTqMdkohqzHyFIG8uDorkzbTp3nNL4jr1P9m4din6NXKYRLdf7Ql7fyTdSwfFK32mIw2FT9nD0zWq2tsalayg9wkqOocqiFqjKqDdmICgdydJU4LiSYio4oKz0kUXq2Ipl72KIT7WmtxoLdxGC8KYYEPV9JiqgNxUxLmsQdrqpsi/yqN50KLoBtblIqqpjWSFAkarXszABjYkcrb+c3U855AfE/hJ0vOpCGbQesxRw/Uk/L6ayVTpgbAffFR4RSZuAmREBERAREQEREBERAREQEREDFpoxOGzqVDMt/1ltceVwZIiBAThlNVyhRb4knmSTqTK3GeGKFQ3KLfqAAfiNZ0MxaBxHEfCSuoUhaijUK4vlI2KturdxrKOpg8RhjZCXX93WY5rafZ17EnY6PmJv7Sz6kUkbE4JXFmAI7y1I+eYPjVN29GSadQ/3NUZHPXLraoO6lhNeO8LYGvc1MLRJO7BQjX7lLEzo+MeE0qKVypUQ706gDL7rg2P5uJzNXgdXD6U6+IoDkjla9LyX0tyB2VxKIlHwDgU+zGIpdqdeqv1Jm2n4Op7DF8SFuQxb6eWk3p/+iu1TBVemanWpE+ZV3Hyk/hdXEEt+kJQU+rlNKo7g73uHRSLaW3+Uorv9DadvWxnE2G+uLqWt10HlMp4CwLfapWrW/e167eVxmAnRI35+H4TYlxaBU0fB/D6ZUpgsPoedNX7/r3v/lOioUwgyoqqOigKunZeVx85rC3/AD+dJvB2/P52kHoL+fzzsR8LzfSI/Px/H4zxTpE7An3ffJFPCt0A8z+EUe6c3LMphup+E3BQNpFR/wBFFybbzYtITbMyDyFmZmICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiBgieGpA8psiBV4jglFt0APVfVPxEhP4dX9V3Hmc3/ledDMWgc23Bag2qf4V/CF4TV/efJfwnR5YywKSlw1ubEyww+GCyYFi0kWsKJ6iJUIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiICIiAiIgIiIH//Z" alt="Zapatilla 3" class="w-full h-48 object-cover mb-4">
+                <h3 class="text-xl font-bold">Zapatilla Deportiva</h3>
+                <p class="text-gray-600">Rendimiento y resistencia garantizados.</p>
+                <p class="text-lg font-semibold text-blue-600 mt-2">$89.99</p>
+                <button class="mt-4 bg-blue-600 text-white px-4 py-2 rounded">Comprar</button>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
